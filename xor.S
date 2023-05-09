@@ -8,7 +8,7 @@
 // calling convention:
 //   rdi: string
 //   rsi: key
-// more parameter: rdx, rxc, r8, r9, Stack…
+// more parameter: rdx, rcx, r8, r9, Stack…
 xor_cipher:
     mov rax, rdi
     mov rbx, rsi
